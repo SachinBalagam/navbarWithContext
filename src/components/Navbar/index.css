@@ -1,1 +1,36 @@
 /* Write your CSS here */
+.navList-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.website-logo {
+  width: 50px;
+}
+.theme-logo {
+  width: 50px;
+}
+.home-about-container {
+  display: flex;
+}
+.eachNav {
+  margin-left: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.link {
+  text-decoration: none;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.bg-dark {
+  background-color: #333333;
+}
+.dark-text {
+  color: #ffffff;
+}
